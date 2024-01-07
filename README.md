@@ -19,4 +19,9 @@ January 5, 2024
 January 7, 2024
 - Solved very convoluted bug involving the API returning strings which contain quotation marks themselves, implemented some string cleaning in the JSON parsing process.
 - Implemented some asynchronous API calls using mutex and async which allowed me to match the rate limit for the API. Shaved a considerable amount of time off the data collection process.
-- Considering different methods of measuring risk and liquidity. Depth of order book is potentially the best option for my purposes. I'm also considering cutting the asset pool by about 80% on the basis of low volume currencies posing too high of a risk to latency. 
+- Considering different methods of measuring risk and liquidity. Depth of order book is potentially the best option for my purposes. I'm also considering cutting the asset pool by about 80% on the basis of low volume currencies posing too high of a risk to latency.
+
+January 8, 2024
+- Continued cloud set up, learned about interactions betwewen CMake and Docker
+- Settled on a EC2 linux set up but will continue local development on macOS
+- Discovered that Japan and Singapore AWS servers both have superior connections with the exchange 
