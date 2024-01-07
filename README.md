@@ -12,6 +12,10 @@ January 4, 2024
 - Implemented some unit testing to ensure data is being read and stored properly
 - Set up CMake as the project was getting large enough that the compile statements were prone to error
 
+January 5, 2024
+- Set up Docker with EC2
+- Worked on some matrix transformation problems
+
 January 7, 2024
 - Solved very convoluted bug involving the API returning strings which contain quotation marks themselves, implemented some string cleaning in the JSON parsing process.
 - Implemented some asynchronous API calls using <mutex> and <async> which allowed me to match the rate limit for the API. Shaved a considerable amount of time off the data collection process.
