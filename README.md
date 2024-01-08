@@ -24,4 +24,5 @@ January 7, 2024
 January 8, 2024
 - Continued cloud set up, learned about interactions betwewen CMake and Docker
 - Settled on a EC2 linux set up but will continue local development on macOS
+- Set up ssh connection with EC2 instance
 - Discovered that Japan and Singapore AWS servers both have superior connections with the exchange in terms of connection stability and throughput
