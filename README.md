@@ -18,7 +18,7 @@ January 5, 2024
 
 January 7, 2024
 - Solved convoluted bug involving the API returning strings which contain quotation marks themselves, implemented some string cleaning in the JSON parsing process.
-- Implemented some asynchronous API calls using mutex and async which allowed me to match the rate limit for the API. Shaved a considerable amount of time off the data collection process.
+- Implemented some asynchronous API calls using mutex and async which allowed me to match the rate limit for the API. Shaved a considerable amount of time off the data collection process (demo uploaded here as generate_base_assets.cpp)
 - Considering different methods of measuring risk and liquidity. Considering creating an index score involving order book depth, volatility, and volume to be considered in risk analysis for each currency.
 
 January 8, 2024
