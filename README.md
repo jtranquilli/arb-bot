@@ -27,3 +27,6 @@ January 8, 2024
 - Settled on a EC2 linux set up but will continue local development on macOS
 - Set up ssh connection with EC2 instance
 - Discovered that Japan and Singapore AWS servers both have superior connection stability and throughput with the exchange
+
+January 9, 2024
+- Made some efficiency gains by finding some calculations and analyses which could be outsourced to compile time. Capacity to execute on detected opportunities should in theory be improved.
