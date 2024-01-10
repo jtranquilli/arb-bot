@@ -33,3 +33,5 @@ January 9, 2024
 
 January 10, 2024
 - Started learning CUDA. At the moment it seems like it's best application would be for the expensive matrix operations that I was initially doing with multiple threads. Will need to ensure I'm using an EC2 instance which has access to NVIDIA GPUs.
+- Eigen doesn't have support for CUDA, and Eigen matrices are designed for CPU based computation.
+- I could develop a data transfer process to convert my Eigen matrices into 2D arrays to then be used in a CUDA program, but it's possible that the latency of that process would drag me down significantly so I may just scrap using Eigen altogether and edit the entire code base to use 2D matrices instead of Eigen matrices.
