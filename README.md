@@ -30,3 +30,6 @@ January 8, 2024
 
 January 9, 2024
 - Made some efficiency gains by finding some calculations and analyses which could be outsourced to compile time. Capacity to execute on detected opportunities should in theory be improved.
+
+January 10, 2024
+- Started learning CUDA. At the moment it seems like it's best application would be for the expensive matrix operations that I was initially doing with multiple threads. Will need to ensure I'm using an EC2 instance which has access to NVIDIA GPUs.
