@@ -35,3 +35,7 @@ January 10, 2024
 - Started learning CUDA. At the moment it seems like it's best application would be for the expensive matrix operations that I was initially doing with multiple threads. Will need to ensure I'm using an EC2 instance which has access to NVIDIA GPUs.
 - Eigen doesn't have support for CUDA, and Eigen matrices are designed for CPU based computation, noteworthy because CPUs are optimized for sequential operations whereas GPUs are optimized for concurrent computation.
 - I could develop a data transfer process to convert my Eigen matrices into 2D arrays to then be used in a CUDA program, but it's possible that the latency of that process would drag me down significantly so I may just scrap using Eigen altogether and edit the entire code base to use 2D matrices instead of Eigen matrices.
+
+January 20, 2024
+- I've put the CUDA-Eigen integration on hold in favour of working on the traversal algorithm. At this point I have a very heavily modified version of a known graph traversal algorithm but I'm still experimenting with improvements that can be made in terms of moving run-time problems to compile time.
+- My most likely approach moving forward will be to use the traversal algorithm as an exploratory pre-amble to the execution phase, i.e., rather than use it to discover opportunities and then execute upon them, use it to discover and document all opportunities, then use some multi-threading/websocket magic to constantly monitor and execute upon the discovered possibilities. 
