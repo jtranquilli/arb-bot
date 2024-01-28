@@ -38,4 +38,8 @@ January 10, 2024
 
 January 20, 2024
 - I've put the CUDA-Eigen integration on hold in favour of working on the traversal algorithm. At this point I have a very heavily modified version of a known graph traversal algorithm but I'm still experimenting with improvements that can be made in terms of moving run-time problems to compile time.
-- My most likely approach moving forward will be to use the traversal algorithm as an exploratory pre-amble to the execution phase, i.e., rather than use it to discover opportunities and then execute upon them, use it to discover and document all opportunities, then use some multi-threading/websocket magic to constantly monitor and execute upon the discovered possibilities. 
+- My most likely approach moving forward will be to use the traversal algorithm as an exploratory pre-amble to the execution phase, i.e., rather than use it to discover opportunities and then execute upon them, use it to discover and document all opportunities, then use some multi-threading/websocket magic to constantly monitor and execute upon the discovered possibilities.
+
+January 28, 2024
+- Completed system for retrieval and parsing of order books
+- Implemented a baseline liquidity analysis process for each cryptocurrency
