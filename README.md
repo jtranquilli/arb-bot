@@ -43,3 +43,7 @@ January 20, 2024
 January 28, 2024
 - Completed system for retrieval and parsing of order books
 - Implemented a baseline liquidity analysis process for each cryptocurrency
+
+April 16, 2024
+- After lots of research, I've decided I'm not going to risk attempting to access MEXC through a Singaporean VPN.
+- Coinbase is available in Canada and offers FIX Order Entry API for higher-frequency trading. I will be moving forward with Coinbase.
