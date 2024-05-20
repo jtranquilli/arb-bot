@@ -6,7 +6,7 @@ January 1, 2024
 - Created several flags for main function to help with debugging
 
 January 2, 2024
-- Considering using Eigen's sparse matrix, may need to find a way to transform the data to make it work but the matrix in question is structurally analogous to a sparse matrix, and finding a way to use Eigen's sparse matrix would provide some storage efficiency gains
+- Considering using Eigen's sparse matrix, may need to find a way to transform the data to make it work but the matrix in question is structurally analogous to a sparse matrix, and finding a way to use Eigen's sparse matrix would provide some efficiency gains. Sparse matrices contain a significant number of zero elements, and Eigen uses specialized data structures to store only the non-zero elements. This reduces memory usage and speeds up operations like matrix multiplication, solving linear systems, and other algebraic computations by avoiding unnecessary processing of zero elements. Efficient algorithms and data structures like compressed row storage (CRS) are key to these optimizations.
 
 January 4, 2024
 - Implemented some unit testing to ensure data is being read and stored properly
